@@ -1,5 +1,5 @@
 import { Entity, PrimaryGeneratedColumn, Column } from "typeorm";
-import { DepartmentRole } from "./constants/Department";
+import { DepartmentRole } from "../constants/Department";
 
 @Entity()
 export class Employee {
